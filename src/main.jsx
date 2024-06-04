@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 
 import {
@@ -11,6 +10,8 @@ import Root from './components/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
 import Login from './components/Login/Login.jsx';
 import Register from './components/Register/Register.jsx';
+// import Love from './components/Love/Love.jsx';
+// import Fuck from './components/Fuck/Fuck.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,14 @@ const router = createBrowserRouter([
         path: "/register",
         element: <Register></Register>,
       },
+      // {
+      //   path: '/love',
+      //   element: <Love></Love>
+      // },
+      // {
+      //   path: '/fuck',
+      //   element: <Fuck></Fuck>
+      // },
     ]
   },
 ]);
